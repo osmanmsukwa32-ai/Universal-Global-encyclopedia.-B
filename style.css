@@ -1,0 +1,437 @@
+/* UNIVERSAL GLOBAL ENCYCLOPEDIA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    color: #17233b;
+    line-height: 1.7;
+}
+
+/* HEADER */
+
+header {
+    background: #071b3a;
+    color: white;
+    text-align: center;
+    padding: 25px 12px;
+}
+
+header h1 {
+    color: #e5b83e;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 13px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #d6a52e;
+    color: #071b3a;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 30px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border-left: 5px solid #d6a52e;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+section h2 {
+    color: #092b59;
+    margin-bottom: 12px;
+}
+
+/* HOME SECTION */
+
+#home {
+    text-align: center;
+    background: #e8effa;
+    padding: 45px 20px;
+}
+
+#home h2 {
+    font-size: 27px;
+}
+
+input {
+    width: 70%;
+    max-width: 450px;
+    padding: 13px;
+    margin-top: 20px;
+    border: 1px solid #aab8cc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+button {
+    background: #d6a52e;
+    color: #071b3a;
+    border: none;
+    padding: 13px 20px;
+    margin: 8px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #071b3a;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background: #071b3a;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+    color: #e5b83e;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 90%;
+        background: #102b50;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    #home h2 {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 22px 15px;
+    }
+}
+/* UNIVERSAL GLOBAL ENCYCLOPEDIA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    color: #17233b;
+    line-height: 1.7;
+}
+
+/* HEADER */
+
+header {
+    background: #071b3a;
+    color: white;
+    text-align: center;
+    padding: 25px 12px;
+}
+
+header h1 {
+    color: #e5b83e;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 13px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #d6a52e;
+    color: #071b3a;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 30px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border-left: 5px solid #d6a52e;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+section h2 {
+    color: #092b59;
+    margin-bottom: 12px;
+}
+
+/* HOME SECTION */
+
+#home {
+    text-align: center;
+    background: #e8effa;
+    padding: 45px 20px;
+}
+
+#home h2 {
+    font-size: 27px;
+}
+
+input {
+    width: 70%;
+    max-width: 450px;
+    padding: 13px;
+    margin-top: 20px;
+    border: 1px solid #aab8cc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+button {
+    background: #d6a52e;
+    color: #071b3a;
+    border: none;
+    padding: 13px 20px;
+    margin: 8px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #071b3a;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background: #071b3a;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+    color: #e5b83e;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 90%;
+        background: #102b50;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    #home h2 {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 22px 15px;
+    }
+}
+/* LANGUAGE SELECTOR */
+
+.language-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: #102b50;
+    color: #ffffff;
+}
+
+.language-box label {
+    font-weight: bold;
+    color: #e5b83e;
+}
+
+.language-box select {
+    padding: 10px 15px;
+    border: 2px solid #d6a52e;
+    border-radius: 7px;
+    background: white;
+    color: #071b3a;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.language-box select:focus {
+    outline: 2px solid #e5b83e;
+}
+
+/* ARTICLE SEARCH RESULTS */
+
+.article-search {
+    max-width: 700px;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.article-search input {
+    flex: 1;
+    min-width: 200px;
+    padding: 13px;
+    border: 2px solid #d6a52e;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.article-search button {
+    padding: 13px 18px;
+    background: #102b50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.article-search button:hover {
+    background: #d6a52e;
+    color: #102b50;
+}
+
+#articleSearchResults {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+#articleSearchResults .article-card {
+    text-align: left;
+}
+
+/* PROFESSIONAL ARTICLE READER */
+
+#articleReader {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#articleReader .article-card {
+    background: #ffffff;
+    border: 2px solid #d6a52e;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+    text-align: left;
+}
+
+#articleReader h2 {
+    color: #102b50;
+    font-size: 26px;
+    border-bottom: 2px solid #d6a52e;
+    padding-bottom: 12px;
+}
+
+#articleReader p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.9;
+    text-align: justify;
+}
